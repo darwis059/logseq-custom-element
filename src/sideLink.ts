@@ -5,6 +5,7 @@ class SideLink extends HTMLAnchorElement {
   }
 
   handleClick(ev) {
+    console.log('sidebar-link');
     ev.preventDefault();
     ev.stopImmediatePropagation();
     ev.stopPropagation();
